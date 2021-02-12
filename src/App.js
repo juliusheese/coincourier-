@@ -48,7 +48,7 @@ function App() {
   return (
     <Div className="App">
       <Header >
-        <Box className="hd" bg="#f2a900" w="100vw" h="8vh" color="white" p={[14,14,14,14]} m={[0,14,14,0]}> <h1>CoinCourier {<Icon as={FaBitcoin} ></Icon>}</h1></Box>
+        <Box className="hd" bgGradient="linear(to-l, #4d4d4e, #f2a900)" bg="" w="100vw" h="8vh" color="white" p={[14,14,14,14]} m={[0,14,14,0]}> <h1>CoinCourier {<Icon as={FaBitcoin} ></Icon>}</h1></Box>
       </Header>
       <Center>
         <Box className="bod" w="70vw" h="100%" text-align="center" >
