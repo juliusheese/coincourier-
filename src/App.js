@@ -48,18 +48,18 @@ function App() {
   return (
     <Div className="App">
       <Header >
-        <Box className="hd" bgGradient="linear(to-l, #4d4d4e, #f2a900)" bg="" w="100vw" h="8vh" color="white" p={[14,14,14,14]} m={[0,14,14,0]}> <h1>CoinCourier {<Icon as={FaBitcoin} ></Icon>}</h1></Box>
+        <Box className="hd" bgGradient="linear(to-l, #4d4d4e, #f2a900)" bg="" w="100vw" h="8vh" color="white" p={[14,14,14,14]} m={[0,14,14,0]}> <h1>CoinCourier {<Icon color="#f2a900" as={FaBitcoin} ></Icon>}</h1></Box>
       </Header>
       <Center>
         <Box className="bod" w="70vw" h="100%" text-align="center" >
           <P	color="white"  >
-          CoinCourier is a Bitcoin private courier service with guarenteed two-hour delivery of Bitcoin contained on a secure USB-drive-like  device. 
+          CoinCourier is a Bitcoin private courier service with guaranteed two-hour delivery of Bitcoin contained on a secure USB-drive-like  device. 
            We are currently in a closed beta and do not offer a public iPhone or Android applications.
             Our services are only available in Cook, Lake, and Champaign county in Illinois, 
             but we plan to expand after our closed beta. Parties who are interested in joining
-             the closed beta should email {<EmailIcon/>} coincourier@pm.me with their estimated monthly purchase amount. Our delivery services are headquarted in 
+             the closed beta should email <a color="#f2a900" href = "mailto: coincourier@pm.me"> {<EmailIcon/>} coincourier{<AtSignIcon/>}pm.me </a> with their estimated monthly purchase amount. Our delivery services are headquarted in 
              Chicago and our technological services are headquarted in Estonia {<ReactCountryFlag countryCode="ee"/>}. We hold an Estonian activity licence for a provider of 
-             virtual currency services (VCS {<Icon as={FaBitcoin} ></Icon>} ) and  follow all rules under the Money Laundering and Terrorist Financing Prevention Act.
+             virtual currency services (VCS {<Icon color="#f2a900" as={FaBitcoin} ></Icon>} ) and  follow all rules under the Money Laundering and Terrorist Financing Prevention Act.
           </P>
           </Box>
 
