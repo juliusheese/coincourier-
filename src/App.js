@@ -1,6 +1,6 @@
 import './App.css';
 import styled from 'styled-components'
-import { Box, Icon, Center} from "@chakra-ui/react"
+import { Box, Icon, Center, Text} from "@chakra-ui/react"
 import { EmailIcon, AtSignIcon } from '@chakra-ui/icons'
 import { FaBitcoin } from "react-icons/fa"
 import ReactCountryFlag from "react-country-flag"
@@ -51,8 +51,9 @@ function App() {
         <Box className="hd" bgGradient="linear(to-l, #4d4d4e, #f2a900)" bg="" w="100vw" h="8vh" color="white" p={[14,14,14,14]} m={[0,14,14,0]}> <h1>CoinCourier {<Icon color="#f2a900" as={FaBitcoin} ></Icon>}</h1></Box>
       </Header>
       <Center>
-        <Box className="bod" w="70vw" h="100%" text-align="center" >
-          <P	color="white"  >
+        <Box className="bod"  text-align="center" >
+        <Center>
+          <Text	color="white" m={["3rem","3rem","3rem","3rem"]} >
           CoinCourier is a Bitcoin private courier service with guaranteed two-hour delivery of Bitcoin contained on a secure USB-drive-like  device. 
            We are currently in a closed beta and do not offer a public iPhone or Android applications.
             Our services are only available in Cook, Lake, and Champaign county in Illinois, 
@@ -60,7 +61,8 @@ function App() {
              the closed beta should email <a color="#f2a900" href = "mailto: coincourier@pm.me"> {<EmailIcon/>} coincourier{<AtSignIcon/>}pm.me </a> with their estimated monthly purchase amount. Our delivery services are headquarted in 
              Chicago and our technological services are headquarted in Estonia {<ReactCountryFlag countryCode="ee"/>}. We hold an Estonian activity licence for a provider of 
              virtual currency services (VCS {<Icon color="#f2a900" as={FaBitcoin} ></Icon>} ) and  follow all rules under the Money Laundering and Terrorist Financing Prevention Act.
-          </P>
+          </Text>
+          </Center>
           </Box>
 
           </Center>
