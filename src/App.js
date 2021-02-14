@@ -54,11 +54,11 @@ function App() {
         <Box className="bod"  text-align="center" >
         <Center>
           <Text	color="white" m={["3rem","3rem","3rem","3rem"]} >
-          CoinCourier is a Bitcoin private courier service with guaranteed two-hour delivery of Bitcoin contained on a secure USB-drive-like  device. 
-           We are currently in a closed beta and do not offer a public iPhone or Android applications.
-            Our services are only available in Cook, Lake, and Champaign county in Illinois, 
-            but we plan to expand after our closed beta. Parties who are interested in joining
-             the closed beta should email <a color="#f2a900" href = "mailto: coincourier@pm.me"> {<EmailIcon/>} coincourier{<AtSignIcon/>}pm.me </a> with their estimated monthly purchase amount. Our delivery services are headquarted in 
+          CoinCourier is a Bitcoin private courier service with guaranteed two-hour delivery of a secure USB-drive-like device the contains Bitcoin. 
+           We are currently in a closed beta and do not offer a public iPhone or Android app.
+            Our services are available in Cook, Lake, and Champaign county in Illinois. 
+            We plan to expand to more locations after our closed beta. Parties who are interested in joining
+             the closed beta should email <a color="#f2a900" href = "mailto: coincourier@pm.me"> {<EmailIcon/>} coincourier{<AtSignIcon/>}pm.me </a> with any questions they have. Our delivery services are headquarted in 
              Chicago and our technological services are headquarted in Estonia {<ReactCountryFlag countryCode="ee"/>}. We hold an Estonian activity licence for a provider of 
              virtual currency services (VCS {<Icon color="#f2a900" as={FaBitcoin} ></Icon>} ) and  follow all rules under the Money Laundering and Terrorist Financing Prevention Act.
           </Text>
@@ -73,7 +73,7 @@ function App() {
         </a>
         </Box>
           <Box className="hd" w="100vw" h="8vh" color="white" m={[20,20,20,20]}>
-          <h3>If you are interested in joining the private beta and becoming a client please email!</h3> 
+          <h3>If you are interested in this service or interested in being hired as a driver or a technical role please email!</h3> 
           </Box>
           </Header>
     </Div>
