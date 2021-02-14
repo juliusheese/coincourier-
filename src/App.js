@@ -54,7 +54,7 @@ function App() {
         <Box className="bod"  text-align="center" >
         <Center>
           <Text	color="white" m={["3rem","3rem","3rem","3rem"]} >
-          CoinCourier is a Bitcoin private courier service with guaranteed two-hour delivery of a secure USB-drive-like device the contains Bitcoin. 
+          CoinCourier is a Bitcoin private courier service with guaranteed two-hour delivery of a secure USB-drive-like device which contains Bitcoin. 
            We are currently in a closed beta and do not offer a public iPhone or Android app.
             Our services are available in Cook, Lake, and Champaign county in Illinois. 
             We plan to expand to more locations after our closed beta. Parties who are interested in joining
@@ -72,7 +72,7 @@ function App() {
         <h2><EmailIcon/>  CoinCourier{<AtSignIcon/>}pm.me</h2>
         </a>
         </Box>
-          <Box className="hd" w="100vw" h="8vh" color="white" m={[20,20,20,20]}>
+          <Box className="hd" w="100vw" h="8vh" color="white" m={["1rem","1rem","1rem","1rem"]}>
           <h3>If you are interested in this service or interested in being hired as a driver or a technical role please email!</h3> 
           </Box>
           </Header>
