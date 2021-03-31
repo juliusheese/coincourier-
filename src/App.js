@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
     <Box bgGradient="linear(to-bl, #f2a900, #4d4d4e)">
-        <Box w="100vw"h="10vh"color="#ffffff"m={["1.69420%","1.69420%","1.69420%","1.69420%"]} ><Text fontSize="1.69420rem"> <Center>bitcoinwallet.delivery{<Icon color="#f2a900"as={FaBitcoin}></Icon>}</Center></Text></Box>
+        <Box w="100vw"h="10vh"color="#ffffff"m={["1.69420%","1.69420%","1.69420%","1.69420%"]} ><Text fontSize="1.69420rem"> <Center>IN COLLEGIUM bitcoinwallet.delivery{<Icon color="#f2a900"as={FaBitcoin}></Icon>}</Center></Text></Box>
         <Center> 
         <Box>
         <Text fontSize="0.69420rem"h="100vh"m={["2.69420%","2.69420%","2.69420%","2.69420%"]} color="#ffffff" >
@@ -15,7 +15,7 @@ function App() {
           We are in beta and do not offer a public iPhone or Android app.
           Our services are available in Cook, Lake, and Champaign county in Illinois, USA.
           We plan to expand to more locations after beta. Parties who are interested in joining the beta should email:
-          <Center><Text color="purple" href="mailto: initiation@bitcoinwallet.delivery"> {<EmailIcon />} initiation{<AtSignIcon />}GILDA bitcoinwallet.delivery </Text></Center>
+          <Center><Text color="purple" href="mailto: initiation@bitcoinwallet.delivery"> {<EmailIcon />} initiation{<AtSignIcon />}bitcoinwallet.delivery </Text></Center>
           Our delivery services are headquarted in
           Chicago {<ReactCountryFlag countryCode="us" />} and our technological services are headquarted in Estonia {<ReactCountryFlag countryCode="ee" />}. We hold an Estonian activity licence for a provider of
           Virtual Currency Services (VCS {<Icon color="#f2a900" as={FaBitcoin} ></Icon>} ) and follow all rules under the Money Laundering and Terrorist Financing Prevention Act.  
