@@ -14,10 +14,8 @@ function App() {
           We are a 𐌱itcoin Guild with guaranteed two-hour delivery of a secure device containing 𐌱itcoin.
           We are in 𐌱eta and do not offer a pu𐌱lic iPhone or Android app.
           Our services are availa𐌱le in Cook, Lake, and Champaign county in Illinois, USA.
-          We plan to expand to more locations after 𐌱eta. Parties who are interested in joining the 𐌱eta should email:
-          <Center><Text color="purple" href="mailto: initiation@bitcoinwallet.delivery"> {<EmailIcon />} initiation{<AtSignIcon />}𐌱itcoinwallet.delivery </Text></Center>
-          Our delivery services are headquarted in
-          Chicago {<ReactCountryFlag countryCode="us" />} and our technological services are headquarted in Estonia {<ReactCountryFlag countryCode="ee" />}. We hold an Estonian activity licence for a provider of
+          We plan to expand to more locations after 𐌱eta. Parties who are interested in joining the 𐌱eta should email:<Center><Text  color="purple" ><a href="mailto: initiation@bitcoinwallet.delivery"> initiation@bitcoinwallet.delivery </a></Text></Center>
+          Our delivery services are headquarted in Chicago {<ReactCountryFlag countryCode="us" />} and our technological services are headquarted in Estonia {<ReactCountryFlag countryCode="ee" />}. We hold an Estonian activity licence for a provider of
           Virtual Currency Services (VCS {<Icon color="#f2a900" as={FaBitcoin} ></Icon>} ) and follow all rules under the Money Laundering and Terrorist Financing Prevention Act.  
           We will only accept emails for addresses ena𐌱led with keys so make sure all your addresses are set up properly.
           日本のクライアント：私達に電子メールを送ってください ！نحن نحب العملاء الدوليين  
