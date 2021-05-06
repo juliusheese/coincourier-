@@ -16,7 +16,7 @@ function App() {
           Our services are in Cook, Lake, and Champaign county in Illinois, USA.
           We are also building a proprietary BTC ATM device.
           We plan to expand to more locations soon. Parties who are interested in joining the team should email:<Center><Text  color="purple" ><a href="mailto: initiation@bitcoinwallet.delivery"> initiation@bitcoinwallet.delivery </a></Text></Center>
-          We are headquartered in Chicago and Des Moines {<ReactCountryFlag countryCode="us" />} and have additional headquarters in Estonia {<ReactCountryFlag countryCode="ee" />}. We hold an Estonian activity license for a provider of
+          We are headquartered in Chicago, Des Moines {<ReactCountryFlag countryCode="us" />} and Gielinor and have additional headquarters in Estonia {<ReactCountryFlag countryCode="ee" />}. We hold an Estonian activity license for a provider of
           Virtual Currency Services (VCS {<Icon color="#f2a900" as={FaBitcoin} ></Icon>} ) and follow all rules under the Money Laundering and Terrorist Financing Prevention Act.  
           We prefer emails with keys so make sure to set things up properly.
           日本のクライアント：私達に電子メールを送ってください ！نحن نحب العملاء الدوليين  
