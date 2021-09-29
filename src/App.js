@@ -11,8 +11,8 @@ function App() {
         <Center> 
         <Box>
         <Text fontSize="0.69420rem"h="100vh"m={["2.69420%","2.69420%","2.69420%","2.69420%"]} color="#ffffff" >
-          We are a online software solutions company, availible to contract for products.
-          Most of our previous projects use Javascript or ASP.NET , but we are able to solve, consult, or build out most web based projects and software.
+          We are a online software solutions company availible to contract. We are able to bill by the hour or by set fees based on the size and scope of the project.
+          Most of our previous projects use Javascript or ASP.NET , but we are able to solve, consult, or build out most almost all based projects and software.
           Parties who are interested should email <Center><Text  color="purple" ><a href="mailto: JJAutomata@protonmail.ch">us</a></Text></Center>
           We are headquartered in Chicago {<ReactCountryFlag countryCode="us" />} and have offices in Tokyo {<ReactCountryFlag countryCode="jp" />} :)
           <br></br>
