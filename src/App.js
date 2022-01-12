@@ -1,26 +1,28 @@
+import React from 'react';
 import './App.css';
-import { Box, Icon, Center, Text} from "@chakra-ui/react"
-import { EmailIcon, AtSignIcon } from '@chakra-ui/icons'
-import { FaBitcoin } from "react-icons/fa"
-import ReactCountryFlag from "react-country-flag"
+import Navbar from './components/Navbar';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import Home from './components/pages/Home';
+import Services from './components/pages/Services';
+import SignUp from './components/pages/SignUp';
+import Products from './components/pages/Products';
+
+
+
 function App() {
   return (
-    <div className="App">
-    <Box bgGradient="linear(to-bl, #f2a900, #4d4d4e)">
-        <Box w="100vw"h="10vh"color="#ffffff"m={["1.69420%","1.69420%","1.69420%","1.69420%"]} ><Text fontSize="1.69420rem"> <Center>Julius H.G J AI LLC</Center></Text></Box>
-        <Center> 
-        <Box>
-        <Text fontSize="0.69420rem"h="100vh"m={["2.69420%","2.69420%","2.69420%","2.69420%"]} color="#ffffff" >
-          We are a online software solutions company availible to contract. We are able to bill by the hour or by set fees based on the size and scope of the project.
-          Most of our previous projects use Javascript or ASP.NET , but we are able to solve, consult, or build out most almost all web based projects and software.
-          Parties who are interested should <a href="mailto: JJAutomata@protonmail.ch">email us by clicking here. </a>
-          We are headquartered in Chicago {<ReactCountryFlag countryCode="us" />} and have offices in Tokyo. {<ReactCountryFlag countryCode="jp" />}
-          <br></br>
-        </Text>
-        </Box>
-      </Center>
-    </Box>
-    </div>
+   <>
+   <Router>
+      <Navbar />
+      <Switch>
+        <Route path='/' exact component={Home} />
+        <Route path='/services' exact component={Services} />
+        <Route path='/products' exact component={Products} />
+        <Route path='/sign-up' exact component={SignUp} />
+      </Switch>
+   </Router>
+   </>
   );
 }
+
 export default App;
