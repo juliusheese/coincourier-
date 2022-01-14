@@ -1,0 +1,6 @@
+div.App {
+	font-family:  Helvetica, Arial, sans-serif;
+	background-color: #4d4d4e;
+	display: flex;
+	flex-direction: column;
+}
