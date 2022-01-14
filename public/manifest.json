@@ -1,6 +1,6 @@
 {
-  "short_name": "BTC",
-  "name": "bitcoinwallet.delivery",
+  "short_name": "React App",
+  "name": "Create React App Sample",
   "icons": [
     {
       "src": "favicon.ico",
