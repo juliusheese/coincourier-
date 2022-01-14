@@ -14,7 +14,7 @@ function App() {
           We are a online software solutions company availible to contract. We are able to bill by the hour or by set fees based on the size and scope of the project.
           Most of our previous projects use Javascript or ASP.NET , but we are able to solve, consult, or build out most almost all web based projects and software.
           Parties who are interested should <a href="mailto: JJAutomata@protonmail.ch">email us by clicking here. </a>
-          We are headquartered in Chicago {<ReactCountryFlag countryCode="us" />} and have offices in Tokyo. {<ReactCountryFlag countryCode="jp" />}
+          We are headquartered in Chicago {<ReactCountryFlag countryCode="us" />}
           <br></br>
         </Text>
         </Box>
