@@ -122,7 +122,7 @@ const projects = [
     id: "project6",
     name: "Shopify App",
     skills: ["ASP.NET, Angular"],
-    url: "https://github.com/kaustubhai",
+    url: "https://github.com/juliusheese",
   },
 ];
 // Edit your Miscellaneous Activities, its name and the url.
@@ -134,19 +134,19 @@ const miscellaneous = [
     // Add image in './styles/images.css' in #misc1
     id: "misc1",
     name: "Miscellaneous 1",
-    url: "https://github.com/kaustubhai",
+    url: "https://github.com/juliusheese",
   },
   {
     // Add image in './styles/images.css' in #misc2
     id: "misc2",
     name: "Miscellaneous 2",
-    url: "https://github.com/kaustubhai",
+    url: "https://github.com/juliusheese",
   },
   {
     // Add image in './styles/images.css' in #misc3
     id: "misc3",
     name: "Miscellaneous 3",
-    url: "https://github.com/kaustubhai",
+    url: "https://github.com/juliusheese",
   },
 ];
 // Contact form text, and Formspree link(to send a submit contact through their API as in contact.js)
@@ -162,11 +162,11 @@ const contact = {
 // Paste your respective social media links. You can omit any if you dont have it
 // Upload your resume in your drive, get the shaareable link and paste it in the resume section
 const social = {
-  github: "https://github.com",
+  github: "https://github.com/juliusheese",
   facebook: "https://facebook.com",
   // twitter: "https://twitter.com",
   instagram: "https://instagram.com",
-  linkedin: "https://linkedin.com",
+  linkedin: "https://linkedin.com/company/julius-h-g-automata-industries-llc",
 };
 // Dont change anything here
 export {
